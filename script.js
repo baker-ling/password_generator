@@ -66,7 +66,7 @@ function getPasswordOptions() {
     options.length = lengthValidated;
   } 
 
-  // prompt for types of charactes to include
+  // prompt for types of characters to include
   options.includeLower = false;
   options.includeUpper = false;
   options.includeNumeric = false;
@@ -75,7 +75,7 @@ function getPasswordOptions() {
   while (!(options.includeLower   || 
            options.includeUpper   || 
            options.includeNumeric || 
-           options.includeSpecial)) // loop until at least one option is selectedoptions.
+           options.includeSpecial)) // loop until at least one option is selected.
   {
     if (promptedCharacterTypes) {
       window.alert("You need to include at least one type of characters.")
